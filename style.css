@@ -18,7 +18,7 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-    border-radius: 1rem; /* matches Tailwind's rounded-2xl */
+    border-radius: 1rem; 
     padding: 2px;
     background: linear-gradient(130deg, #a855f7, #f0abfc, #a855f7);
     -webkit-mask: 
