@@ -26,9 +26,6 @@ body {
 .heading{
   font-size: 18px;
 }
-.home{
-  height: 650px;
-}
 
 .tilt-card::before {
     content: "";
