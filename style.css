@@ -6,7 +6,6 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
- 
 
 .nav-link:hover {
   color: #4f46e5;
@@ -17,7 +16,6 @@ body {
   transition: all 0.3s ease-in-out;
   
 }
-
 
 .tilt-card::before {
     content: "";
@@ -41,8 +39,6 @@ body {
     opacity: 1;
   }
 
-  
-
 .footer-logo{
     width: 150px;
 }
@@ -57,5 +53,6 @@ body {
   .footer-logo {
     width: 100px; 
   }
+ 
 }
 
