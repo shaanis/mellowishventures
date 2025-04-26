@@ -54,54 +54,77 @@
 
     <!-- home Section -->
     <section id="home" class="bg-indigo-600 text-white text-center py-24 px-4 h-screen flex items-center justify-center flex-col">
-        <h2  class="text-4xl md:text-5xl font-bold mb-5 heading">Crafting Possibilities, Empowering Growth</h2>
-        <p class="mb-6 max-w-2xl mx-auto ">Mellowish Ventures is a multidisciplinary group uniting creativity,
-            technology, and innovation to deliver excellence across real estate, interiors, and digital solutions.</p>
-        <div class="space-x-4 mt-4">
-            <a href="#services" class="bg-white text-indigo-600 px-6 py-3 rounded-md font-semibold text-decoration-none
-            ">Explore Our Brands</a>
-            <a href="#contact" class="bg-indigo-700 hover:bg-indigo-800 text-white px-6 py-3 rounded-md font-semibold text-decoration-none
-            ">Get in Touch</a>
-        </div>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-5 heading">Crafting Possibilities, Empowering Growth</h2>
+      <p class="mb-6 max-w-2xl mx-auto">
+        Mellowish Ventures is a multidisciplinary group uniting creativity, technology, and innovation to deliver excellence across real estate, interiors, and digital solutions.
+      </p>
+      <div class="space-x-4 mt-4">
+        <a href="#services" class="bg-white text-indigo-600 px-6 py-3 rounded-md font-semibold text-decoration-none">Explore Our Brands</a>
+        <a href="#contact" class="bg-indigo-700 hover:bg-indigo-800 text-white px-6 py-3 rounded-md font-semibold text-decoration-none">Get in Touch</a>
+      </div>
     </section>
+    
 
     <!-- About Us -->
-    <section id="about" class="py-24 px-4 bg-gray-50">
-        <div class="container mx-auto max-w-5xl text-center" data-aos="fade-up">
-          <p class="mb-10 text-gray-600 leading-relaxed max-w-3xl mx-auto">
-            <span class="inline-block bg-indigo-100 text-indigo-600 px-3 py-1 rounded-full mb-3 text-sm font-medium">Innovating Growth</span><br>
-            Mellowish Ventures Pvt. Ltd. is an emerging business group based in Bangalore, India. We operate at the intersection of creativity and practicality, delivering customized solutions across various sectors.
+    <section id="about" class="relative bg-white py-20 px-6">
+      <div class="container mx-auto max-w-6xl grid md:grid-cols-2 gap-16 items-center">
+        <!-- Left Side: Image -->
+        <div class="relative aspect-[4/3] md:aspect-auto md:h-[500px] rounded-xl overflow-hidden shadow-lg" data-aos="fade-right">
+          <img
+            src="./images/mellowish.png"
+            alt="About Mellowish Ventures"
+            class="w-full h-full object-cover hidden md:flex"
+          />
+          <div class="absolute inset-0"></div>
+        </div>
+    
+        <!-- Right Side: Content -->
+        <div data-aos="fade-left">
+          <span class="inline-block bg-[#faf9ff] text-[#272e37] px-4 py-1 rounded-full text-sm  mb-4">
+            Innovating Growth
+          </span>
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Mellowish Ventures Pvt. Ltd.</h2>
+          <p class="text-gray-600 mb-8">
+            Based in Bangalore, India, we’re an emerging group creating impact at the intersection of creativity and practicality.
+            We deliver customized solutions across design, real estate, and digital sectors.
           </p>
-      
-          <div class="grid md:grid-cols-2 gap-12 mb-12">
-            <div data-aos="fade-right" class="text-left p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition">
-              <div class="flex items-center mb-3">
+    
+          <div class="space-y-6">
+            <!-- Vision -->
+            <div class="bg-gray-100 p-5 rounded-lg shadow-sm hover:shadow-md transition">
+              <div class="flex items-center mb-2">
                 <span class="text-2xl text-indigo-600 mr-3">🎯</span>
-                <h3 class="text-xl font-semibold">Our Vision</h3>
+                <h3 class="text-xl font-semibold text-gray-800">Our Vision</h3>
               </div>
               <p class="text-gray-700">To become a leading group of innovative businesses that create meaningful value and long-term impact.</p>
             </div>
-      
-            <div data-aos="fade-left" class="text-left p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition">
-              <div class="flex items-center mb-3">
+    
+            <!-- Mission -->
+            <div class="bg-gray-100 p-5 rounded-lg shadow-sm hover:shadow-md transition">
+              <div class="flex items-center mb-2">
                 <span class="text-2xl text-indigo-600 mr-3">🚀</span>
-                <h3 class="text-xl font-semibold">Our Mission</h3>
+                <h3 class="text-xl font-semibold text-gray-800">Our Mission</h3>
               </div>
-              <p class="text-gray-700">To empower individuals and businesses by offering tailored solutions in design, real estate, and digital development.</p>
+              <p class="text-gray-700">To empower individuals and businesses with tailored solutions in design, real estate, and digital development.</p>
             </div>
           </div>
-      
-          <div data-aos="zoom-in" class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition max-w-2xl mx-auto">
-            <h3 class="text-xl font-semibold mb-4 text-indigo-700">Core Values</h3>
-            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left text-gray-700">
-              <li class="flex items-start"> Integrity & Transparency</li>
-              <li class="flex items-start">Design with Purpose</li>
-              <li class="flex items-start"> Innovation-Driven Execution</li>
-              <li class="flex items-start">People-Centric Growth</li>
+    
+          <!-- Core Values -->
+          <div class="mt-10">
+            <h3 class="text-xl font-semibold text-indigo-700 mb-4">Core Values</h3>
+            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-gray-700">
+              <li class="flex items-start">✅ Integrity & Transparency</li>
+              <li class="flex items-start">🎨 Design with Purpose</li>
+              <li class="flex items-start">⚙️ Innovation-Driven Execution</li>
+              <li class="flex items-start">🤝 People-Centric Growth</li>
             </ul>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+    
+    
+    
       
 
     <!-- Services -->
@@ -204,11 +227,11 @@
             <p class="text-center mb-6">We’d love to hear about your next big idea.</p>
             <form id="contactForm" class="space-y-6">
                 <div class="grid md:grid-cols-2 gap-6">
-                  <input type="text" name="from_name" placeholder="Name" class="w-full border border-black p-3 rounded" required />
-                  <input type="email" name="email" placeholder="Email" class="w-full border p-3 rounded" required />
+                  <input type="text" name="from_name" placeholder="Name" class="w-full border border-gray-500 p-3 rounded" required />
+                  <input type="email" name="email" placeholder="Email" class="w-full border border-gray-500 p-3 rounded" required />
                 </div>
-                <input type="text" name="phone" placeholder="Phone" class="w-full border p-3 rounded" />
-                <textarea name="message" rows="5" placeholder="Message" class="w-full border p-3 rounded" required></textarea>
+                <input type="text" name="phone" placeholder="Phone" class="w-full border border-gray-500 p-3 rounded" />
+                <textarea name="message" rows="5" placeholder="Message" class="w-full border border-gray-500 p-3 rounded" required></textarea>
                 <button type="submit" class="bg-indigo-600 text-white px-6 py-3 rounded hover:bg-indigo-700">
                   Send Message
                 </button>

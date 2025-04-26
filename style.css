@@ -65,6 +65,18 @@ body {
   }
   
 
-  .footer-logo{
+.footer-logo{
     width: 150px;
+}
+
+@media (max-width: 768px) {
+  .footer-logo {
+    width: 120px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-logo {
+    width: 100px; 
+  }
 }
